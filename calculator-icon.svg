@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- 背景 -->
+  <rect x="96" y="32" width="320" height="448" rx="32" fill="#f0f0f0" stroke="#2c3e50" stroke-width="16"/>
+  
+  <!-- ディスプレイ -->
+  <rect x="128" y="64" width="256" height="96" rx="8" fill="#ecf0f1" stroke="#2c3e50" stroke-width="8"/>
+  
+  <!-- ボタン -->
+  <!-- 1行目 -->
+  <rect x="128" y="192" width="64" height="64" rx="8" fill="#3498db"/>
+  <rect x="208" y="192" width="64" height="64" rx="8" fill="#3498db"/>
+  <rect x="288" y="192" width="96" height="64" rx="8" fill="#e74c3c"/>
+  
+  <!-- 2行目 -->
+  <rect x="128" y="272" width="64" height="64" rx="8" fill="#3498db"/>
+  <rect x="208" y="272" width="64" height="64" rx="8" fill="#3498db"/>
+  <rect x="288" y="272" width="96" height="64" rx="8" fill="#3498db"/>
+  
+  <!-- 3行目 -->
+  <rect x="128" y="352" width="64" height="64" rx="8" fill="#3498db"/>
+  <rect x="208" y="352" width="64" height="64" rx="8" fill="#3498db"/>
+  <rect x="288" y="352" width="96" height="64" rx="8" fill="#3498db"/>
+  
+  <!-- テキスト -->
+  <text x="149" y="232" fill="white" font-family="Arial, sans-serif" font-size="24">7</text>
+  <text x="229" y="232" fill="white" font-family="Arial, sans-serif" font-size="24">8</text>
+  <text x="309" y="232" fill="white" font-family="Arial, sans-serif" font-size="24">DEL</text>
+  
+  <text x="149" y="312" fill="white" font-family="Arial, sans-serif" font-size="24">4</text>
+  <text x="229" y="312" fill="white" font-family="Arial, sans-serif" font-size="24">5</text>
+  <text x="309" y="312" fill="white" font-family="Arial, sans-serif" font-size="24">6</text>
+  
+  <text x="149" y="392" fill="white" font-family="Arial, sans-serif" font-size="24">1</text>
+  <text x="229" y="392" fill="white" font-family="Arial, sans-serif" font-size="24">2</text>
+  <text x="309" y="392" fill="white" font-family="Arial, sans-serif" font-size="24">3</text>
+</svg>
