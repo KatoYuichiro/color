@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>確率計算プログラム</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0078D7">
+</head>
+<body>
+  <div class="container">
+    <h1>日常生活に役立つ確率計算</h1>
+    <p>計算したい確率を選んで、必要な情報を入力してください。</p>
+
+    <div class="form-group">
+      <label for="probability-type">計算する確率を選択:</label>
+      <select id="probability-type">
+        <option value="lottery">宝くじが当たる確率</option>
+        <option value="rain">雨が降る確率</option>
+        <option value="event">イベントで特定の景品が当たる確率</option>
+        <option value="dice">サイコロで特定の目が出る確率</option>
+      </select>
+    </div>
+
+    <div id="input-fields" class="form-group">
+      <!-- 動的にフィールドが追加される -->
+    </div>
+
+    <button id="calculate-button">確率を計算する</button>
+    <div id="result" class="result"></div>
+  </div>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js').then(function(registration) {
+        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+      }, function(err) {
+        console.log('ServiceWorker registration failed: ', err);
+      });
+    }
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>
 
